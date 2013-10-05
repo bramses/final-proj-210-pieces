@@ -1,0 +1,5 @@
+<select id = "buildings">
+	<option id="blank" value="blank">Please select a building</option>
+	<option id="Anderson" value="anderson">Anderson (Note: students 5 and 6 will be assigned to the double)</option>
+	<option id="Wilder" value="wilder">Wilder (Note: students 5 and 6 will be assigned to the double)</option>
+</select>

@@ -1,0 +1,10 @@
+<select id = "buildings">
+	<option id="blank" value="blank">Please select a building</option>
+	<option id="chambers" value="chambers">Chambers</option>
+	<option id="fairchild" value="fairchild">Fairchild</option>
+	<option id="gale" value="gale">Gale</option>
+	<option id="kendrick" value="kendrick">Kendrick</option>
+	<option id="munro" value="munro">Munro</option>
+	<option id="slater" value="slater">Slater</option>
+
+</select>

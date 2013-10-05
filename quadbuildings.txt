@@ -1,0 +1,6 @@
+<select id = "buildings">
+	<option id="blank" value="blank">Please select a building</option>
+	<option id="burton" value="burton">Burton</option>
+	<option id="crosby" value="crosby">Crosby</option>
+	<option id="lovejoy" value="lovejoy">Lovejoy</option>
+</select>

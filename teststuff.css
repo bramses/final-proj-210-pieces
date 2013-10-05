@@ -1,0 +1,151 @@
+body {
+	/*background: url(campuspic.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	background-color: #f4f4f4;
+}
+#banner {
+	background-color: rgba(255, 255, 255, .0);
+	height: 140px;
+	margin: -8px;
+	margin-right: -8px;
+	/*opacity: .67;*/
+	position: relative;
+	z-index: 2;
+	display:inline;
+}
+#crest {
+	height:130px;
+	width: 130px;
+}
+#icons {
+	height:120px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline;
+}
+.icon {
+	height: 90px;
+	width: 90px;
+	margin: 10px;
+	margin-bottom: 0px;
+	opacity: .9;
+}
+img {
+	border: 0px;
+	
+	
+}
+.iconset {
+	float: left;
+	text-align: center;
+}
+.iconset p {
+	margin: 0; 
+}
+#bodystuffs {
+	position: relative; 
+	width: 1000px;
+	top: 20px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+#siteimage {
+	width: 1000px; 
+	position: relative; 
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#homeblurb {
+	background-color: rgba(255, 255, 255, .65);
+	position: relative;
+	top: -630px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#mapblurb {
+	background-color: rgba(255, 255, 255, .65);
+	position: relative;
+	top: -100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	margin-top: 20px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	
+}
+#mapblurb p {
+	margin: 0px; 
+}
+#registerblurb {
+	background-color: rgba(255, 255, 255, .45);
+	position: relative;
+	top: -630px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 500px;
+	height:500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#faqblurb {
+	background-color: rgba(255, 255, 255, .45);
+	position: relative;
+	top: -560px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+p {
+	color: #ffffff;
+}
+.babyicon {
+	width: 40px;
+	height: 40px;
+}
+select {
+	font-size: xx-large;
+}
+.singleicon {
+	float: left;
+	margin: 0;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+}
+.singleicon p{
+	margin: 0;
+	text-align: center;
+	color: #003f77;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+}

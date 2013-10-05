@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Map</title>
+    <link href="teststuff.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+<link rel='shortcut icon' href='favicon.ico'type='image/x-icon'/>
+  </head>
+  <body>
+  	<div id="banner" >
+  	  <a href="http://www.rochester.edu/"><img id="crest" src="fullcrest.png" alt="crest"/></a>
+  	  <div id="icons">
+  	    <div class="singleicon">
+  	    	<a href="index.html"><img class="icon" src="home.png" alt="home icon"/></a>
+  	    	<p> Home </p>
+  	    </div>
+  	    <div class="singleicon">
+  	    	<a href="map.html"><img class="icon" src="map.png" alt="map icon"/></a>
+  	    	<p> Map </p>
+  	    </div>
+  	    <div class="singleicon">
+	  	    <a href="register.html"><img class="icon" src="signup.png" alt="signup icon"/></a>
+  			<p> Register </p>
+  		</div>
+  		<div class="singleicon">
+	  	    <a href="FAQ.html"><img class="icon" src="question.png" alt="questions icon"/></a>
+			<p> FAQ </p>
+  		</div>	
+  	  </div>
+  	</div>	
+	<div id="bodystuffs">
+      <img id = "siteimage" src="campuspicmap.jpg" alt= "campus map" usemap="#registrationmap" />
+	  <div id="mapblurb">
+		<p>Click on a living area for more information</p>
+	  </div>
+      <map id = "registrationmap" name = "registrationmap">
+		<area shape ="rect" alt="Jackson Court" title="" coords="350,95,440,181" href="highslide/sample-includes/jackson.htm" onclick="return hs.htmlExpand(this, { 
+					objectType: 'iframe', width: 550, 
+					creditsPosition: 'bottom left', headingText: '', 
+					wrapperClassName: 'titlebar' } )"
+		/>
+		<area shape ="rect" alt="Hill Court" title="" coords="474,92,568,155" href="highslide/sample-includes/phase.htm" onclick="return hs.htmlExpand(this, { 
+					objectType: 'iframe', width: 550, 
+					creditsPosition: 'bottom left', headingText: '', 
+					wrapperClassName: 'titlebar' } )"
+		/>
+				<area shape ="rect" alt="Southside" title="" coords="886,269,998,325" href="highslide/sample-includes/newt.htm" onclick="return hs.htmlExpand(this, { 
+					objectType: 'iframe', width: 550, 
+					creditsPosition: 'bottom left', headingText: '', 
+					wrapperClassName: 'titlebar' } )"
+		/>
+
+				<area shape ="rect" alt="ResQuad" title="" coords="141,175,253,240" href="highslide/sample-includes/resquad.htm" onclick="return hs.htmlExpand(this, { 
+					objectType: 'iframe', width: 550, 
+					creditsPosition: 'bottom left', headingText: '', 
+					wrapperClassName: 'titlebar' } )"
+		/>
+		<area shape ="rect" alt="Riverview" title="" coords="0,202,113,276" href="highslide/sample-includes/riverside.htm" onclick="return hs.htmlExpand(this, { 
+					objectType: 'iframe', width: 550, 
+					creditsPosition: 'bottom left', headingText: '', 
+					wrapperClassName: 'titlebar' } )"
+		/>
+
+      </map>
+
+	</div>
+    
+  </body>
+</html>

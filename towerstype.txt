@@ -1,0 +1,5 @@
+<select id="type">
+	<option id="blank" value="blank">Please select a room configuration</option>
+	<option id="apartment" value="6apartment">6-person apartment</option>
+	<option id="doubles" value="2double">2 attached doubles</option>
+</select>

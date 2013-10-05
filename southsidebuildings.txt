@@ -1,0 +1,5 @@
+<select id = "buildings">
+	<option id="blank" value="blank">Please select a building</option>
+	<option id="valentine" value="valentine">Valentine</option>
+	<option id="deKiewiet" value="deKiewiet">deKiewiet</option>
+</select>

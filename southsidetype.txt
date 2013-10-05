@@ -1,0 +1,5 @@
+<select id = "type">
+	<option id="blank" value="blank">Please select a room configuration</option>
+	<option id="2person" value="2person">2 Person Apartment</option>
+	<option id="3person" value="3person">3 Person Apartment</option>
+</select>
